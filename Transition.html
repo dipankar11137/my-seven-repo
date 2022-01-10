@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid rgb(50, 161, 212);
+            background-color: rgb(47, 141, 4);
+            transition: width 10s linear 2s, height 10s linear 2s, transform 10s linear 2s;
+
+        }
+
+        .box:hover {
+            width: 400px;
+            height: 400px;
+            transform: rotate(360deg);
+
+        }
+
+        .box img:hover {
+            width: 400px;
+            height: 400px;
+            transform: rotate(360deg);
+        }
+
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <!-- <h3>Transition</h3> -->
+        <img src="images/dipu2.png" alt="">
+    </div>
+    <div class="box">
+        <!-- <h3>Transition</h3> -->
+        <img src="images/dipu.png" alt="">
+    </div>
+    <div class="box">
+        <!-- <h3>Transition</h3> -->
+        <img src="images/dipu (1).png" alt="">
+    </div>
+
+</body>
+
+</html>
